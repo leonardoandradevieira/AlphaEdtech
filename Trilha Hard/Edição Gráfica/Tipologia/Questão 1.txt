@@ -1,0 +1,79 @@
+Desafio nº3:
+
+Estilo antigo:  "Como posso me lembrar, Adam!".
+
+Moderno: "Alta Sociedade".
+
+Serifa grossa: "O enigma continua".
+
+Sem serifa: "É sua atitude".
+
+Manuscrito: "Sem Palavras".
+
+Decorativo: "NO RODEIO".
+
+
+Desafio nº4:
+
+Higgle: B - trasições grosso-fino radicais.
+
+Piggle: C - nenhuma transição grosso-fino.
+
+Wiggle: A - transições grosso-fino moderadas.
+
+Jiggle: A - transições grosso-fino moderadas.
+
+Diggle: C - nenhuma transição grosso-fino.
+
+Giggle: B - trasições grosso-fino radicais.
+
+
+Desafio nº5:
+
+Higgle: C - não têm serifas.
+
+Piggle: A - serifas finas e horizontais.
+
+Jiggle: B - serifas grossas e horizontais.
+
+Wiggle: A - serifas finas e horizontais.
+
+Diggle: D - serifas inclinadas.
+
+Giggle: D - serifas inclinadas.
+
+
+Desafio nº6:
+
+PERFUME CHEIROSO - contrasta efetivamente. A primeira palavra é sem estilo enquanto a segunda aparenta estar pequenos pontos e traços envolta.
+
+comida de cachorro GOSTOSA - contrasta efetivamente. A primeira fonte é manuscrito, toda em caixa baixa e sublinhada enquanto a segunda é caixa alta, com alto peso e de forma.
+
+MINHA MÃE - conflito. As fontes são muito parecidas, se não forem a mesma. A primeira tem apenas uma leve inclinação e peso a mais, mas ambas têm serifa, mesma distância entre as letras, tamanho parecido.
+
+FAZENDA ENGRAÇADA Seguro-Saúde - contrasta efetivamente. As letras das fontes são levemente parecidas, mas a primeira tem negrito, sublinhado e pouco espaçamento entre as letras que estão todas em caixa alta, já a segunda tem espaçamento grande entre as letras, está em caixa baixa principalmente e peso leve.
+
+vamosDANÇAResta noite - conflito. As fontes são muito parecidas, apenas o estilo do "DANÇAR" é negrito e itálico, mas ambas tem espaçamento e tamanhos parecidos.
+
+
+Desafio nº7:
+
+1. Errado. Vai haver conflito com duas fontes manuscritas de formas diferentes.
+
+2. Errado. Duas fontes com mesmo estilo têm muitas similaridades. Deve-se usar fontes com estilos diferentes.
+
+3. Errado. Utiliza-se apenas uma estilização por vez em uma mesma página.
+
+4. Errado. A fonte manuscrita já costuma ter uma leve inclinação.
+
+5. Certo. As fontes terão alto contraste.
+
+6. Certo. Há alto contraste entre fontes com e sem serifa.
+
+7. Errado. Se uma fonte é decorativa, utiliza-se outra com estilazação bem leve para contrastar.
+
+8. Errado. As letras devem ser legíveis.
+
+9. Certo. É importante seguir os princípios, assim o resultado será sempre agradável.
+
+10. Certo. Conhecendo as regras, sabe-se quais quebrar e ainda assim manter a coerência no estilo.
