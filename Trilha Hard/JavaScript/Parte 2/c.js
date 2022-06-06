@@ -12,8 +12,6 @@ comparar.onclick = function () {
 
     let genero = document.querySelector('input[name="genero"]:checked').value;
 
-    console.log(diasVida);
-
     if (diaAtual < dia) {
 
         document.getElementById("resultado").innerHTML = "Espera! Você ainda não nasceu!";
@@ -33,7 +31,7 @@ comparar.onclick = function () {
             }
         }
 
-        else {
+        else if (genero == "F") {
             if (diasVida > 29256.53) {
                 document.getElementById("resultado").innerHTML = "Estatisticamente, você já deveria ter morrido.";
             }
@@ -44,6 +42,10 @@ comparar.onclick = function () {
             }
         }
 
+        else {
+            document.getElementById("resultado").innerHTML = "Escolha um gênero para o cálculo.";
+        }
+
     }
 
-};
+}

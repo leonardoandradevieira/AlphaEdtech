@@ -2,8 +2,8 @@ let comparar = document.querySelector("button");
 
 comparar.onclick = function() {
 
-    let num1 = document.getElementById("num1").value.padStart(1,'0');
-    let num2 = document.getElementById("num2").value.padStart(1,'0'); 
+    let num1 = parseInt(document.getElementById("num1").value.padStart(1,'0'));
+    let num2 = parseInt(document.getElementById("num2").value.padStart(1,'0')); 
 
     if ( num1 > num2 ) {
         document.getElementById("resultado").innerHTML = "O 1º número é maior que o 2º número.",
