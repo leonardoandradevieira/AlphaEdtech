@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dias para Morrer</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+
+    <form>
+
+        <h1>Quantos dias você tem de vida?</h1>
+
+        <div id="inputs">
+
+            <section>
+
+                <h2>Digite seu nascimento</h2>
+
+                <div id="nascimento">
+                    <div>
+                        <label for="dia">DIA</label>
+                        <input type="number" id="dia" name="dia" min="1" max="31">
+                    </div>
+
+                    <div>
+                        <label for="mes">MÊS</label>
+                        <input type="number" id="mes" name="mes" min="1" max="12">
+                    </div>
+
+                    <div>
+                        <label for="ano">ANO</label>
+                        <input type="number" id="ano" name="ano" min="1" max="9999">
+                    </div>
+                </div>
+
+            </section>
+
+            <section>
+
+                <h2>Digite seu gênero biológico</h2>
+
+                <div id="genero">
+                    <div>
+                        <input type="radio" id="M" name="genero" value="M">
+                        <label for="M">Masculino</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="F" name="genero" value="F">
+                        <label for="F">Feminino</label>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+        <button type="button">Calcular</button>
+
+        <div id="div-resultado">
+            <p id="resultado">Insira a data de seu nascimento para o cálculo.</p>
+        </div>
+        
+    </form>
+    
+    <script type="text/javascript" src="c.js"></script>
+    
+</body>
+</html>

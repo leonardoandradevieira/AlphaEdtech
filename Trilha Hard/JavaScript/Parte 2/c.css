@@ -1,0 +1,98 @@
+html{
+    background-color: #202020;
+    padding: 50px 5vw;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #ffe8d6;
+    padding: 20px;
+    width: 800px;
+}
+form{
+    border: #202020 dashed 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+}
+h1{
+    color: #202020;
+}
+#inputs{
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#nascimento{
+    display: flex;
+    justify-content: center;
+}
+#nascimento div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 0 20px 40px;
+}
+input{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+    background-color: #202020;
+    color: #ffffff;
+}
+input:hover{
+    background-color: #202020;
+    color: #ffffff;
+}
+input::placeholder{
+    color: #202020;
+}
+input:focus::placeholder{
+    color: #ffffff;
+}
+input:hover::placeholder{
+    color: #ffffff;
+}
+#genero div{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+#genero input{
+    accent-color: #202020;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: fit-content;
+    justify-self: center;
+    background-color: #ffffff;
+    color: #202020;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button:hover{
+    background-color: #202020;
+    color: #ffffff;
+    cursor: pointer;
+}
+#div-resultado{
+    width: 700px;
+    font-size: 20px;
+    line-height: 8px;
+    padding: 0px 20px;
+    margin: 40px 0;
+    background-color: white;
+}
