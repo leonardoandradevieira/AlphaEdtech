@@ -1,0 +1,49 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    padding: 50px 100px;
+    margin: 50px auto;
+    width: fit-content;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#numeros{
+    padding-bottom: 30px;
+}
+form div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.entrada{
+    padding: 10px 0 30px;
+}
+input{
+    padding: 5px;
+    margin-left: 10px;
+    width: 50px;
+}
+select{
+    margin-left: 10px;
+}
+button{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    outline: grey 1px solid;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+button:hover{
+    background-color: grey;
+    color: white;
+    outline: none;
+}
+p{
+    line-height: 30px;
+}
