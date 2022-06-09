@@ -1,0 +1,67 @@
+html{
+    background-color: #fcf6bd;
+}
+body{
+    text-align: center;
+    padding: 100px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+h1{
+    box-shadow: 0px 15px 10px -15px #ef476f; 
+    width: fit-content;
+    margin: 10px auto 50px;
+}
+h1:hover{
+    box-shadow: 0px 15px 10px -15px #fb8b24;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+input{
+    background-color: #fcf6bd;
+    border: none;
+    border-bottom: #ef476f 3px solid;
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 20px 10px;
+    font-size: 20px;
+}
+input:hover{
+    border-bottom: #fb8b24 3px solid;
+}
+input:focus{
+    outline: none;
+    border-bottom: #fb8b24 3px dashed;
+}
+input:active{
+    outline: none;
+    border-bottom: #fb8b24 3px dashed;
+}
+button{
+    padding: 20px 30px;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    background-color: #ef476f;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: #fb8b24;
+}
+button:focus{
+    outline: #ef476f 3px dashed;
+}
+button:active{
+    outline: #ef476f 3px dashed;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+}
