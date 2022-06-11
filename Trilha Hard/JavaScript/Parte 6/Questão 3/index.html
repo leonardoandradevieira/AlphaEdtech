@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarme</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Alarme</h1>
+        <p>Escolha o tempo para que o alarme toque(máximo: 59 minutos).</p>
+
+        <form>
+            <div>
+                <div>
+                    <label>Minutos:</label>
+                    <select id="minutos">
+                    </select>
+                </div>
+                <div>
+                    <label>Segundos:</label>
+                    <select id="segundos"></select>
+                </div>
+            </div>
+
+            <button id="ligar-desligar" type="button" value="1">Ligar Alarme</button>
+        </form>
+
+    </header>
+
+    <main>
+        <section>
+            <p id="cinco-porcento">O tempo está acabando!</p>
+
+            <div id="relogio">
+                <h2><span id="minutos-restantes">00</span> : <span id="segundos-restantes">00</span></h2>
+            </div>
+        </section>
+
+        <audio id="alarme">
+            <source src="sons/alarme.mp3" type="audio/mpeg">
+            Seu browser não suporta o elemento áudio.
+        </audio>
+    </main>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

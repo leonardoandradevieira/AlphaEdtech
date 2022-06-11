@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarme a bomba!</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+        <h1>Clique na bomba para desarmá-la antes que exploda! </h1> 
+        <p><span>60</span> segundos restantes.</p>
+        <audio id="som-tique">
+            <source src="sons/tick.mp3" type="audio/mpeg">
+            Seu browser não suporta o elemento áudio.
+        </audio>
+    </header>
+
+    <main>
+        <div id="parabens">
+            <p>Parabéns! Você desarmou a bomba a tempo.</p>
+        </div>
+
+        <div id="bomba-acesa">
+            <img id="bomba" src="imagens/bomba-apagada.svg" alt="bomba">
+            <img id="fogo" src="imagens/fogo.svg" alt="fogo no pavio">
+        </div>
+
+        <div id="explosao">
+                <audio id="som-explosao">
+                    <source src="sons/explosao.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+            <img id="explosao-fundo" src="imagens/explosao.jpg">
+            <img id="bomba-explosao" src="imagens/bomba-apagada.svg" alt="bomba">
+            <img id="fogo-explosao" src="imagens/fogo.svg" alt="fogo no pavio">
+            <h2>BOOOOM</h2>
+            <p>Que pena! Você não conseguiu desarmar a bomba a tempo. Recarregue a página para tentar novamente.</p>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="index.js"></script>
+    
+</body>
+</html>

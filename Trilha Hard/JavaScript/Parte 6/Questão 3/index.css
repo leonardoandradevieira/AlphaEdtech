@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    padding: 1em;
+    width: fit-content;
+    margin: auto;
+}
+h1{
+    padding: 1em 0 0.1em;
+    font-family: 'Orbitron', sans-serif;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
+    font-size: 1.2em;
+}
+header p{
+    padding: 0 2em 0;
+}
+form > div{
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+select{
+    border: none;
+    border-bottom: #202020 3px solid;
+    width: 100px;
+    text-align: center;
+    padding: 10px 10px 5px;
+    font-size: 16px;
+}
+select:hover{
+    border-bottom: #808080 3px solid;
+}
+select:focus{
+    outline: none;
+    border-bottom: #808080 3px solid;
+}
+select:active{
+    outline: none;
+    border-bottom: #808080 3px solid;
+}
+button{
+    padding: 1em 2em;
+    font-size: 0.8em;
+    margin: 1.5em 0 4em;
+    background-color: #202020;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 2em;
+}
+button:hover{
+    background-color: #808080;
+}
+button:focus{
+    outline: #202020 3px dashed;
+}
+button:active{
+    outline: #202020 3px dashed;
+}
+main{
+    padding: 0;
+}
+#cinco-porcento{
+    visibility: hidden;
+    font-size: 2em;
+    color: #8b0000;
+    line-height: 0;
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+    background-color: #1b263b;
+    color: #9d0208;
+    width: fit-content;
+    margin: auto;
+    padding: 0.1em 0.5em;
+}
+h2:hover{
+    background-color: #2b2d42;
+}
+#relogio{
+    width: fit-content;
+    margin: auto;
+    padding: 3em 6em 1em;
+    border-radius: 2em 2em 0 0; 
+    background-color: #202020;
+}

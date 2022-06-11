@@ -1,0 +1,70 @@
+*{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
+header p{
+    font-size: 24px;
+}
+body{
+    text-align: center;
+    padding: 4em;
+}
+#parabens{
+    visibility: hidden;
+}
+#bomba-acesa{
+    position: fixed;
+    top: 80vh;
+    left: 80vw;
+}
+#bomba{
+    width: 50px;
+    cursor: pointer;
+}
+#fogo{
+    width: 20px;
+    position: relative;
+    top: -20px;
+    left: -60px;
+}
+#explosao{
+    visibility: hidden;
+}
+#explosao-fundo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+#bomba-explosao{
+    width: 13%;
+    position: fixed;
+    top: 70%;
+    left: 2%;
+}
+#fogo-explosao{
+    width: 5%;
+    position: fixed;
+    top: 75%;
+    left: 1%;
+}
+#explosao h2{
+    margin: auto;
+    font-size: 100px;
+    z-index: 1;
+    color: #fff;
+    text-shadow: 4px 3px 0px #202020;
+}
+#explosao p{
+    width: 400px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
