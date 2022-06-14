@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Esportivos</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @font-face {
+            font-family: "mezirane";
+            src: url("fontes/mezirane.woff") format('woff');
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>KATCHAU</h1>
+
+        <nav>
+            <a id="actual-page"><p>MODELOS</p></a>
+            <a href="../Questão 2/index.html"><p>CADASTRO</p></a>
+            <a href="../Questão 3/index.html"><p>FALE CONOSCO</p></a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="selecao">
+            <h2>Escolha o carro:</h2>
+            <select>
+                <option selected disabled>Modelos</option>
+                <option value="carro-1">F-type</option>
+                <option value="carro-2">Supra</option>
+                <option value="carro-3">Z4</option>
+                <option value="carro-4">Audi TT</option>
+                <option value="carro-5">Boxster</option>
+                <option value="carro-6">Corvette</option>
+            </select>
+        </section>
+
+        <section id="modelos">
+            <img id="imagem-carro" src="imagens/exemplo.jpg" alt="Imagem dos carros">
+
+            <section>
+                <h3>Dados</h3>
+                <p>Modelo: <span id="modelo"></span></p>
+                <p>Fabricante: <span id="fabricante"></span></p>
+                <p>Velocidade Máxima: <span id="velocidade"></span></p>
+                <p>0-100km: <span id="zero-cem"></span></p>
+                <p>Cavalos de potência: <span id="cavalos"></span></p>
+                <p>Capacidade do tanque: <span id="tanque"></span></p>
+            </section>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

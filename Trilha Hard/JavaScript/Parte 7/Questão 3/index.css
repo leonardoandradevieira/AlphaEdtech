@@ -1,0 +1,132 @@
+html{
+    background-color: #0b090a;
+    color: #eee2df;
+}
+header{
+    padding: 0em;
+    background-image: url("imagens/banner.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: start;
+}
+header:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 307px;
+    width: 50%;
+    border-bottom: #ffb700 3px solid;
+}
+h1{
+    margin: 0;
+    padding: 0.3em;
+    font-family: 'mezirane', normal;
+    font-size: 12em;
+    font-weight: 100;
+    color: #ffb700;
+    position: relative;
+    top: 77px;
+    left: -50px;
+}
+nav{
+    position: absolute;
+    top: 310px;
+    left: 5vw;
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    color: #eee2df;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+a{
+    color: #eee2df;
+    text-decoration: none;
+    text-align: center;
+    background-color: #161a1d;
+    width: 25vw;
+}
+a:hover{
+    background-color: #21272c;
+    cursor: pointer;
+}
+#actual-page{
+    background-color: #21272c;
+    cursor: default;
+}
+main{
+    padding-top: 50px;
+}
+form{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+#input-container{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+textarea{
+    resize: none;
+    background-color: #161a1d;
+    border: none;
+    color: #eee2df;
+    font-size: 18px;
+}
+textarea:active{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+input{
+    background-color: #0b090a;
+    color: #eee2df;
+    border: none;
+    font-size: 18px;
+    height: 30px;
+    width: 350px;
+    border-bottom: #ffb700 1px solid;
+}
+input:hover{
+    outline: none;
+    border-bottom: #ffb700 3px solid;
+}
+input:active{
+    outline: none;
+    border-bottom: #ffb700 3px solid;
+}
+input:focus{
+    outline: none;
+    border-bottom: #ffb700 3px solid;
+}
+button{
+    background-color: #161a1d;
+    color: #eee2df;
+    border: 2px #eee2df solid;
+    border-radius: 30px;
+    height: 50px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #eee2df;
+    color: #161a1d;
+    cursor: pointer;
+}
+button:active{
+    outline: none;
+    background-color: #eee2df;
+    color: #161a1d;
+}
+button:focus{
+    outline: none;
+    background-color: #eee2df;
+    color: #161a1d;
+}
