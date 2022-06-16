@@ -1,0 +1,13 @@
+html{
+    background-color: #ffd6ff;
+}
+body{
+    background-color: #e7c6ff;
+    padding: 0.5em 2em;
+    width: fit-content;
+    margin: 3em auto;
+    border-radius: 30px;
+}
+header{
+    text-align: center;
+}

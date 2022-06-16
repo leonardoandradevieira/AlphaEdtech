@@ -1,0 +1,116 @@
+html{
+    background-color: #ffd6ff;
+}
+body{
+    background-color: #e7c6ff;
+    padding: 0.5em 2em;
+    width: fit-content;
+    margin: 3em auto;
+    border-radius: 30px;
+}
+header{
+    text-align: center;
+}
+main{
+    background-color: #edede9;
+    padding: 2em 2em 0;
+    width: fit-content;
+    margin: 0 auto 2em;
+}
+form{
+    width: 500px;height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    padding: 10px 0;
+}
+input{
+    width: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 0.4em 1em;
+    border: none;
+}
+input:hover{
+    border: 5px solid #d0f4de;
+    margin: -5px;
+}
+input:focus{
+    outline: none;
+    border: 5px dashed #d0f4de;
+    margin: -5px;
+}
+input:active{
+    outline: none;
+    border: 5px dashed #d0f4de;
+    margin: -5px;
+}
+#name{
+    width: 300px;
+}
+#birthdate{
+    display: flex;
+    flex-direction: column;padding: 20px;
+}
+#container-1{
+    padding-top: 20px;
+    display: flex;
+}
+#container-2{
+    display: flex;
+    flex-direction: column;padding: 40px 85px 0;
+}
+fieldset{
+    height: fit-content;
+}
+legend{
+    font-size: 14px;
+}
+select{
+    width: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 0.4em 1em;
+    border: none;
+}
+select:hover{
+    border: 5px solid #d0f4de;
+    margin: -5px;
+}
+select:focus{
+    outline: none;
+    border: 5px dashed #d0f4de;
+    margin: -5px;
+}
+select:active{
+    outline: none;
+    border: 5px dashed #d0f4de;
+    margin: -5px;
+}
+button{
+    padding: 0.5em 2em;
+    margin: 2em 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    border: 3px solid #202020;
+}
+button:hover{
+    border: 3px solid #e7c6ff;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+    border: 5px dashed #e7c6ff;
+}
+button:active{
+    outline: none;
+    border: 5px dashed #d0f4de;
+}
+#error{
+    color: red;
+}

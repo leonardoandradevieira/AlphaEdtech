@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Preencha os dados</h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="name">Nome (mínimo 5 caracteres)</label>
+            <input type="text" name="name" id="name">
+
+            <div id="container-1">
+
+                <fieldset>
+                    <legend>Data de Nascimento</legend>
+                    <div id="birthdate">
+                        <label for="date">Dia</label>
+                        <input type="text" name="date" id="date">
+                        <label for="month">Mês</label>
+                        <input type="text" name="month" id="month">
+                        <label for="year">Ano</label>
+                        <input type="text" name="year" id="year">
+                    </div>
+
+                    <p id="date-error"></p>
+                </fieldset>
+
+                <div id="container-2">
+                    <label for="weight">Peso (kg)</label>
+                    <input type="text" name="weight" id="weight">
+
+                    <label for="height">Altura (cm)</label>
+                    <input type="text" name="height" id="height">
+
+                    <label for="gender">Gênero</label>
+                    <select name="gender" id="gender">
+                        <option value="male">Feminino</option>
+                        <option value="female">Masculino</option>
+                        <option value="other">Outro</option>
+                    </select>
+
+                    <div>
+                        <button type="button">Enviar</button>
+                    </div>
+                </div>
+            </div>
+            <p id="error"></p>
+            <section>
+                <p id="object-name"></p>
+                <p id="object-birthdate"></p>
+                <p id="object-weight"></p>
+                <p id="object-height"></p>
+                <p id="object-gender"></p>
+            </section>
+            <p id="object"></p>
+        </form>
+    </main>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
