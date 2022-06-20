@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    margin: 50px auto;
+    width: fit-content;
+}
+h1{
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+}
+
+form{
+    padding: 20px;
+}
+
+label{
+    margin-left: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+select {
+    padding: 6px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: white;
+    outline: grey 1px solid;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+    outline: none;
+}
+
+p {
+    line-height: 30px;
+}
