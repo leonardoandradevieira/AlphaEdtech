@@ -14,6 +14,8 @@
 
     <main>
         <form>
+            <h2></h2>
+
             <div>
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name">
@@ -32,26 +34,18 @@
             <div>
                 <button type="button" id="add-product">INCLUIR PRODUTOS</button>
 
+                <button type="button" id="edit-product">EDITAR PRODUTO</button>
+
                 <button type="button" id="list-product">LISTAR PRODUTOS</button>
             </div>
+
+            <p id="added-product"></p>
         </form>
 
         <section>
-            <h2>LISTA DE PRODUTOS</h2>
+            <h3>LISTA DE PRODUTOS</h3>
 
-            <table>
-                <tr id="list-title">
-                    <th>ID</th>
-                    <th>NOME</th>
-                    <th>VALOR</th>
-                    <th>EDITAR</th>
-                    <th>APAGAR</th>
-
-                    <th class="product-hidden">DESCRIÇÃO</th>
-                    <th class="product-hidden">INCLUÍDO EM</th>
-                </tr>
-
-                
+            <table>                
             </table>
         </section>
     </main>
